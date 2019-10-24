@@ -7,7 +7,7 @@ import Promote from './Promote';
 
 const App = () => {
   
-const [page, setPage] = useState("Import");
+const [page, setPage] = useState("Promote");
   return (
     <div>
       <div className="App">

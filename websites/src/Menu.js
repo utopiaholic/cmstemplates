@@ -5,9 +5,9 @@ import './styles/Menu.scss';
 
 export const Menu = ({page, setPage}) => {
     const [pages, setPages] = useState([
-        { name: "Import", id : 1 },
+        { name: "Promote", id : 1 },
         { name: "Export", id : 2 },
-        { name: "Promote", id : 3 }
+        { name: "Import", id : 3 }
     ]);
 
     return (

@@ -6,12 +6,15 @@
     "scripts": {
         "client": "cd websites && npm start",
         "server": "cd webservices && npm start",
-        "start": "concurrently -k \"npm run server\" \"npm run client\""
+        "start": "node_modules/.bin/concurrently -k \"npm run server\" \"npm run client\""
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "concurrently": "5.0.0"
+        "concurrently": "^5.0.0"
+    },
+    "dependencies": {
+        "cors": "^2.8.5"
     }
 }
