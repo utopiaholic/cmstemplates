@@ -3,7 +3,7 @@ import { Table, Container, Row, Col } from 'react-bootstrap';
 
 function Promote() {
     return (
-        <Container fluid className="pt-4">
+        <Container className="pt-4">
         <Row>
             <Col>
                 <Table striped bordered hover >
