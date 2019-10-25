@@ -1,6 +1,7 @@
 var config = {
     development: {
-        databases:[]
+        databases:[],
+        templates:[]
     },
     staging:{}
 };
@@ -22,6 +23,37 @@ config.development.databases = [
         port: "3322",
         databaseName: "lcu_dev_avr"
     }
+]; 
+
+config.development.templates = [
+    {
+        name: "Login",
+        revision_major: 11,
+        revision_minor: 0,
+        id: 25,
+        revision_id: 10231
+    },
+    {
+        name: "MasterNonAuth",
+        revision_major: 5,
+        revision_minor: 0,
+        id: 20,
+        revision_id: 2311
+    },
+    {
+        name: "MasterAuth",
+        revision_major: 3,
+        revision_minor: 0,
+        id: 21,
+        revision_id: 5421
+    },
+    {
+        name: "AccountSummary",
+        revision_major: 29,
+        revision_minor: 0,
+        id: 26,
+        revision_id: 3122
+    },
 ]; 
 
 config.staging = {};

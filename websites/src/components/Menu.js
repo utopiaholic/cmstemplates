@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import './styles/Menu.scss';
+import '../styles/Menu.scss';
 
 export const Menu = ({page, setPage}) => {
     const [pages, setPages] = useState([

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './styles/App.scss';
-import Menu from './Menu';
-import Import from './Import';
-import Promote from './Promote';
+import Menu from './components/Menu';
+import Import from './components/Import';
+import Promote from './components/Promote';
 
 
 const App = () => {

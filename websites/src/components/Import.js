@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
-import './styles/Import.scss';
+import '../styles/Import.scss';
 
 function Import() {
     const [databases, setDatabases] = useState([]);
