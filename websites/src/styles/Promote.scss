@@ -1,3 +1,7 @@
 thead {
     background-color: #f8f9fa;
 }
+
+tr.selected {
+    background-color: rgba(0, 0, 0, 0.075);
+}
