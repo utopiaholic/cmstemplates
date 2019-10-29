@@ -156,10 +156,14 @@ function Step2({ promoteState, setPromoteState }) {
 
     
     function addToPromotionList(template) {
-        setPromoteState({
-            ...promoteState,
-            promotionList : [...promoteState.promotionList, template]
-        });
+        if(promoteState.promotionList.filter(e => e === template).length === 0)
+        {
+            setPromoteState({
+                ...promoteState,
+                promotionList : [...promoteState.promotionList, template]
+            });
+        }
+        
     }
 
     function removeFromPromotionList(template) {

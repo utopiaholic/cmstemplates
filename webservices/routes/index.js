@@ -17,4 +17,10 @@ router.get('/databases', function(req, res, next) {
   res.send(`{ "databases" : ${JSON.stringify(config.development.databases)} }`);
 });
 
+/* POST Methods */
+router.post('/promote', function(req, res, next){
+  console.log(req.body);
+  res.send("true");
+}); 
+
 module.exports = router;
